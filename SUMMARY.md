@@ -4,5 +4,5 @@
 
 ## 第一部分：入门教程
 
-* [序：万事开头难](di-yi-bu-fen-ru-men-jiao-cheng/untitled.md)
+* [序：万事开头难](minecraft-1/01.md)
 
