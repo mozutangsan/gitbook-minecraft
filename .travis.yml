@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+ -"node"
+
+after一script:
+- gitbook build
+- cd ./一book
+- git init
+- git config user.name "${USER_NAME}"
+- git config user.email "${USER_EMAIL}"
+- cp ../CNAME .
+- git add .
+- git commit -m "publish gitbook"
+- git push --force --quiet "https://${MINECRAFT_TOKEN}@${GH_REF}" master:${P_BRANCH}
+branches:
+  only:
+    - master
