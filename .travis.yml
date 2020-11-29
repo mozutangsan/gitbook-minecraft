@@ -2,7 +2,7 @@ language: node_js
 node_js:
  -"node"
 
-after一script:
+after_script:
 - gitbook build
 - cd ./一book
 - git init
