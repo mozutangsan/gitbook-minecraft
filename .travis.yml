@@ -1,10 +1,10 @@
 language: node_js
 node_js:
- -"node"
+ - "node"
 
 after_script:
 - gitbook build
-- cd ./一book
+- cd ./_book
 - git init
 - git config user.name "${USER_NAME}"
 - git config user.email "${USER_EMAIL}"
