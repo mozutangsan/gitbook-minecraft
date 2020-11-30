@@ -1,1 +1,44 @@
-{"name": "normalize.css", "version": "3.0.3", "description": "Normalize.css as a node packaged module", "style": "normalize.css", "files": [ "LICENSE.md", "normalize.css" ], "homepage": "http://necolas.github.io/normalize.css", "repository": { "type": "git", "url": "git://github.com/necolas/normalize.css.git" }, "main": "normalize.css", "author": { "name": "Nicolas Gallagher" }, "license": "MIT", "gitHead": "2bdda84272650aedfb45d8abe11a6d177933a803", "bugs": { "url": "https://github.com/necolas/normalize.css/issues" }, "_id": "normalize.css@3.0.3", "scripts": {}, "_shasum": "acc00262e235a2caa91363a2e5e3bfa4f8ad05c6", "_from": "normalize.css@3.0.3", "_npmVersion": "2.7.0", "_nodeVersion": "0.10.35", "_npmUser": { "name": "necolas", "email": "nicolasgallagher@gmail.com" }, "maintainers": [ { "name": "tjholowaychuk", "email": "tj@vision-media.ca" }, { "name": "necolas", "email": "nicolasgallagher@gmail.com" } ], "dist": { "shasum": "acc00262e235a2caa91363a2e5e3bfa4f8ad05c6", "tarball": "https://registry.npmjs.org/normalize.css/-/normalize.css-3.0.3.tgz" }, "directories": {}, "_resolved": "https://registry.npmjs.org/normalize.css/-/normalize.css-3.0.3.tgz", "readme": "ERROR: No README data found!" }
+{
+  "name": "gitbook",
+  "version": "3.2.3",
+  "homepage": "https://legacy.gitbook.com",
+  "description": "Library and cmd utility to generate GitBooks",
+  "main": "lib/index.js",
+  "browser": "./lib/browser.js",
+  "devDependencies": {
+    "eslint": "2.10.2",
+    "expect": "^1.20.1",
+    "mocha": "^2.4.5"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "./node_modules/.bin/mocha ./testing/setup.js \"./lib/**/*/__tests__/*.js\" --bail --reporter=list --timeout=10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GitbookIO/gitbook.git"
+  },
+  "bin": {
+    "gitbook": "./bin/gitbook.js"
+  },
+  "keywords": [
+    "git",
+    "book",
+    "gitbook"
+  ],
+  "author": "FriendCode Inc. <contact@gitbook.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/GitbookIO/gitbook/issues"
+  },
+  "contributors": [
+    {
+      "name": "Aaron O'Mullan",
+      "email": "aaron@gitbook.com"
+    },
+    {
+      "name": "Samy Pessé",
+      "email": "samy@gitbook.com"
+    }
+  ]
+}
