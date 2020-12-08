@@ -1,0 +1,11 @@
+{
+  "plugins": [
+    "-search",
+    "-lunr",
+    "katex",
+    "splitter",
+    "expandable-chapters",
+    "anchor-navigation-ex",
+    "heimu"
+  ],
+}
