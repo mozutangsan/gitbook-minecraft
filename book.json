@@ -1,4 +1,7 @@
 {
+  "title": "Minecraft(我的世界)从入门到精通",
+  "description": "关于minecraft的综合教程",
+  "author": "模组唐三",
   "plugins": [
     "-search",
     "-lunr",
@@ -8,4 +11,9 @@
     "anchor-navigation-ex",
     "heimu"
   ],
+  "pluginsConfig": {
+    "flow": {
+      "line-color": "blue"
+    }
+  },
 }
