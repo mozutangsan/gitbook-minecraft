@@ -1,7 +1,7 @@
 name: auto-generate-gitbook
 on:                                 #在main分支上进行push时触发  
   push:
-    branches:
+    branches: 
     - master
 
 jobs:
