@@ -1,7 +1,7 @@
 name: auto-generate-gitbook
 on:                                 #在main分支上进行push时触发  
   push:
-    branches: 
+    branches:
     - master
 
 jobs:
@@ -33,7 +33,7 @@ jobs:
       env:
         TOKEN: ${{ secrets.TOKEN }}
         REF: github.com/${{github.repository}}
-        MYEMAIL: 2245141324@qq.com                  # ！！记得修改为自己github设置的邮箱
+        MYEMAIL: 1823636309@qq.com                  # ！！记得修改为自己github设置的邮箱
         MYNAME: ${{github.repository_owner}}          
       run: |
         cd _book
